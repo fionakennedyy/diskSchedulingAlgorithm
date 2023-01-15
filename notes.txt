@@ -1,0 +1,19 @@
+FCFS this algorithm entertains requests in the order they arrive in the disk queue
+
+Shortest Seek Time First selects the request with the minimum
+seek time from the current head position
+
+SCAN The disk arm starts at one end of the disk, and moves toward the
+other end, servicing requests until it gets to the other end of the
+disk, where the head movement is reversed and servicing
+continues.
+
+C-SCAN The head moves from one end of the disk to the other, servicing
+requests as it goes
+• When it reaches the other end, however, it immediately
+returns to the beginning of the disk, without servicing any
+requests on the return trip
+
+C-LOOK Arm only goes as far as the last request in each direction,
+then reverses direction immediately, without first going all
+the way to the end of the disk 
